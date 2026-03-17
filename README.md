@@ -6,7 +6,7 @@ A modern and bold blog landing page built with **HTML & CSS** that highlights ar
 
 ## 🌐 Live Demo
 
-🔗 https://nada-mahrous.github.io/The-UX-Review-Blog/
+🔗 [https://nada-mahrous.github.io/The-UX-Review-Blog/](https://nada-mahrous.github.io/The-UX-Review-Blog/)
 
 ---
 
