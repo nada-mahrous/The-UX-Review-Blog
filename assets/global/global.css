@@ -1,0 +1,99 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #000;
+}
+html {
+  scroll-behavior: smooth;
+}
+body::selection {
+  background-color: #ffd15b;
+  color: #000;
+}
+
+/* ****************************************** */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ****************************************** */
+.container {
+  /* background-color: aliceblue; */
+  /* background-color: darkslategray; */
+  /* width: 84%; */
+  width: 100%;
+  margin: 0 auto;
+
+}
+/* ****************************************** */
+/* ****************************************** */
+/* ****************************************** */
+/* heading sections */
+.section-title {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.section-title h3 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 48px;
+  margin: 0 0 16px 0;
+}
+.section-title p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #525252;
+  margin: 0;
+}
+.section-title .title-line {
+  width: 128px;
+  height: 8px;
+  background-color: #000;
+  margin: 16px auto 0 auto;
+  /* transform: rotate(2deg); */
+}
+/* ****************************************** */
+/* ****************************************** */
+
+/******************** Media Query ********************/
+
+/* mobile first */
+
+
+@media screen and (min-width: 1380px) {
+  .container {
+    width: 93.7%;
+  }
+}
+@media screen and (min-width: 1480px) {
+  .container {
+    width: 90.7%;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .container {
+    width: 86%;
+  }
+}
+@media screen and (min-width: 1520px) {
+  .container {
+    width: 84%;
+  }
+}
